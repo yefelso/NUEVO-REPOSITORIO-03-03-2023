@@ -1,5 +1,5 @@
 import math
-pi=3.14
-radio=float(input(" 5 cm "))
-area=3.14*5**2
-print("El area es:", area)
+print("introduzca el valor de radio")
+radio=float(input())
+area= math.pi* radio **2
+print("El area es:",area)
